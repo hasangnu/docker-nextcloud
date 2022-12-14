@@ -10,9 +10,7 @@ services:
       - 8084:80
       - 8083:443
     volumes:
-      - ./data/nextcloud/apps/:/var/www/html/apps
-      - ./data/nextcloud/config/:/var/www/html/config
-      - ./data/nextcloud/data/:/var/www/html/data
+      - ./data/nextcloud/:/var/www/html
 
   db:
     image: hasangnu/mariadb

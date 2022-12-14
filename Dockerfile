@@ -113,7 +113,7 @@ RUN a2enmod ssl
 
 RUN a2ensite default-ssl.conf
 
-ENV NEXTCLOUD_VERSION 24.0.1
+ENV NEXTCLOUD_VERSION 25.0.2
 
 VOLUME /var/www/html
 
